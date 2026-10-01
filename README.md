@@ -1,237 +1,131 @@
-# Awesome-Digital-Adoption-Platform
-
-## Top Digital Adoption Platform (DAP) Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on In-App Guidance, User Onboarding & Feature Adoption*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Digital Adoption Platforms (DAP)**. These tools provide in-app guidance, interactive product tours, onboarding checklists, and user analytics to help organizations drive software adoption and reduce support burden.
-
-
-
-**Examples** include WalkMe, Whatfix, Pendo, Userlane, Appcues, Inline Manual, Userpilot, Apty, Nickelled, Guidde, UserGuiding, ClickLearn, SAP Enable Now, and Stonly (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source ecosystem for product tours is mature and widely adopted. **Driver.js**, **React Joyride**, **Shepherd.js**, and **Intro.js** collectively power onboarding experiences across hundreds of thousands of applications . This section is heavily expanded with active projects for self-hosted tours, guided onboarding, and analytics.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[WalkMe](https://www.walkme.com/)**  
-
-  The pioneer and market leader in digital adoption, founded in 2011. Enterprise-grade platform covering employee onboarding, customer onboarding, process automation, and analytics. Pricing starts at ~$1,500/month for Growth tier, with enterprise deployments reaching $30K+ annually .
-
-
-
-- **[Whatfix](https://whatfix.com/)**  
-
-  Enterprise DAP known for ease of use and on-demand support widgets. Strong for Salesforce, SuccessFactors, ServiceNow, and Oracle deployments. Offers on-premise deployment for data sovereignty requirements .
-
-
-
-- **[Pendo](https://www.pendo.io/)**  
-
-  Product analytics-first platform with in-app guides, NPS, and user segmentation. Free tier for up to 500 monthly active users. Popular with product teams wanting both analytics and guidance in one tool .
-
-
-
-- **[Userlane](https://www.userlane.com/)**  
-
-  DAP focused on enterprise software adoption with interactive step-by-step guides and analytics.
-
-
-
-- **[Appcues](https://www.appcues.com/)**  
-
-  Product-led growth platform with no-code onboarding flows, in-app messaging, and NPS. Mobile SDKs available.
-
-
-
-- **[Inline Manual](https://inlinemanual.com/)**  
-
-  DAP with interactive walkthroughs, tooltips, and knowledge base integration.
-
-
-
-- **[Userpilot](https://userpilot.com/)**  
-
-  Product growth platform with onboarding checklists, feature adoption, and user analytics. Popular with B2B SaaS companies.
-
-
-
-- **[Apty](https://apty.ai/)**  
-
-  DAP focused on enterprise application adoption with process automation and compliance features.
-
-
-
-- **[Nickelled](https://nickelled.com/)**  
-
-  Interactive walkthrough software for onboarding and training with analytics.
-
-
-
-- **[Guidde](https://guidde.com/)**  
-
-  AI-powered platform for creating how-to videos and guides from screen recordings.
-
-
-
-- **[UserGuiding](https://userguiding.com/)**  
-
-  No-code product adoption platform with onboarding flows, checklists, and analytics.
-
-
-
-- **[ClickLearn](https://clicklearn.com/)**  
-
-  DAP specializing in enterprise software training and documentation, with multi-format content generation.
-
-
-
-- **[SAP Enable Now](https://www.sap.com/products/enable-now.html)**  
-
-  SAP's native DAP for SAP applications, providing in-app guidance, training content, and performance support .
-
-
-
-- **[Stonly](https://stonly.com/)**  
-
-  Interactive guidance and decision-tree based support platform.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Driver.js](https://github.com/kamranahmedse/driver.js)**  
-
-  The lightweight champion at just **3KB gzipped** with **4.3M monthly downloads** and **26.3K GitHub stars** as of 2026 . MIT licensed, framework-agnostic vanilla JavaScript with TypeScript support. Features product tours, element highlighting, hints, and contextual help. Used by Red Hat, GitKraken, and Fiverr . **Limitations**: No state persistence, no analytics integration, no multi-page tour support . Best for simple feature highlighting where bundle size is critical.
-
-
-
-- **[React Joyride](https://github.com/gilbarbara/react-joyride)**  
-
-  The most widely installed React-specific tour library with **603K weekly npm downloads** . MIT licensed, **37KB gzipped**. Provides `steps` array API with customizable components and accessible focus trapping . **React 19 compatibility concerns**: Internal state management conflicts with concurrent rendering; multiple GitHub issues report step flickering and overlay glitches in strict mode . Best for quick prototypes and legacy React codebases.
-
-
-
-- **[Shepherd.js](https://github.com/shipshapecode/shepherd)**  
-
-  The most capable framework-agnostic option with **12.6K GitHub stars** . **25KB gzipped**. Clean imperative API with excellent scrolling and positioning logic. Supports React, Vue, Angular, and Ember through wrapper packages . **Licensing caveat**: AGPL-3.0 requires open-sourcing any application using it, or purchasing a commercial license ($50 lifetime for up to 5 projects, $300 for unlimited) . Used by Drupal, LogSeq, and SimplePlanner .
-
-
-
-- **[Intro.js](https://github.com/usablica/intro.js)**  
-
-  The veteran since 2013 with **8KB gzipped** and stable API . AGPL-3.0 licensed with commercial option at $9.99/site . Vanilla JavaScript with no dependencies, using `data-intro` and `data-title` HTML attributes . Community TypeScript types exist but aren't core-maintained. Best for jQuery-era applications and server-rendered pages.
-
-
-
-- **[Tour Kit](https://github.com/domidex01/tour-kit)**  
-
-  Headless architecture with composable packages, **under 8KB core** with zero runtime dependencies . MIT licensed (Pro: $99 one-time). Native React 18+ and 19 support with full TypeScript and WCAG 2.1 AA accessibility. Tours, hints, checklists, analytics, announcements, surveys, and scheduling are separate packages. Works with any component library: shadcn/ui, Radix, Tailwind, or custom systems . **Limitation**: No visual builder — you write JSX .
-
-
-
-- **[Reactour](https://github.com/elrumordelaluz/reactour)**  
-
-  React-specific tour library born in 2017, prioritizing SVG and CSS for masking . Split into three packages: `@reactour/mask`, `@reactour/popover`, and `@reactour/tour`. Provides `useTour` hook for controlling tours from any component, with `withTour` HOC for class components . TypeScript-rewritten.
-
-
-
-- **[Onboarding (react-onboarding)](https://github.com/alexvcasillas/react-onboarding)**  
-
-  Logic-focused onboarding library for React that provides no UI components — only logical components (Onboarding, Step, Field, Info, End) that you tie to your own UI library . Aimed at full onboarding processes with validations and multi-step forms rather than simple tours.
-
-
-
-- **[guidegen](https://www.npmjs.com/package/guidegen)**  
-
-  Open-source CLI tool that generates in-app tours from documentation (SRS Markdown files) and can render MP4 videos from tours . Features a `PageAgent` cursor that moves to controls and clicks/types, `<Guide>` component for Next.js and React, `<GuideWidget>` floating button, and video generation via Playwright and FFmpeg . Supports TTS narration. Actively maintained (August 2026).
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **react-onboarding (alexvcasillas)** — Full onboarding process library with Step, Field, Info, and End components for building validated multi-step flows .
-
-- **r-onboarding** — Super-slim, fully-typed onboarding component for React .
-
-- **react-onboarding (simple wizard)** — Simple Wizard component for React with 389 monthly downloads .
-
-
-
-**Frameworks for building custom DAP solutions**: Combine **Driver.js** for lightweight highlighting and tours (3KB, MIT, no dependencies) , **Shepherd.js** for framework-agnostic tours with rich positioning (if AGPL is acceptable or commercial license purchased) , or **Tour Kit** for React 18+ projects needing headless, accessible, composable tours . Use **guidegen** for documentation-driven tour generation and video export . For React-specific projects, **React Joyride** remains the most widely adopted despite React 19 compatibility concerns . Note that true enterprise DAP platforms with process automation, employee training, SOC 2 compliance, and cross-application analytics remain primarily commercial territory; open-source libraries provide strong tour and onboarding foundations that require integration for complete digital adoption programs .
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Digital adoption tools may inject scripts into your application and collect user behavior data. Self-hosted solutions require proper security hardening and privacy compliance (GDPR, CCPA).
-
-- Open-source tour libraries vary significantly in features. Evaluate gaps in analytics, state persistence, multi-page tours, and accessibility before deployment. AGPL-licensed tools (Shepherd.js, Intro.js) require commercial licenses for closed-source applications .
-
-- The open-source ecosystem provides strong tour and onboarding foundations, but enterprise process automation, cross-application analytics, and SOC 2 compliance remain primarily commercial offerings.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Digital Adoption Platform Banner" width="100%">
+</p>
+
+<h1 align="center">🚀 Awesome Digital Adoption Platform (DAP) Ecosystem</h1>
+
+<p align="center">
+  <strong>A curated list of top SaaS products and open-source GitHub libraries for in-app guidance, interactive product tours, user onboarding checklists, and feature adoption analytics.</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Adoption-Platform"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Digital-Adoption-Platform?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Adoption-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Digital-Adoption-Platform?color=blue" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 💡 Overview & SEO Keywords
 
+Digital Adoption Platforms (DAP) empower software companies, product managers, UX designers, and customer success teams to deliver **interactive step-by-step walkthroughs**, **in-app tooltips**, **user onboarding flows**, and **feature adoption analytics**. Whether you are searching for enterprise-grade SaaS solutions or lightweight open-source JavaScript product tour libraries, this repository serves as the definitive ecosystem directory.
 
-**Made for product managers, UX teams, customer success leaders, and developers building onboarding experiences.**  
+**Keywords & Topics:** `digital-adoption-platform`, `dap`, `user-onboarding`, `product-tours`, `in-app-guidance`, `walkthroughs`, `product-led-growth`, `ux-onboarding`, `feature-adoption`, `driver.js`, `react-joyride`, `shepherd.js`, `walkme-alternatives`, `pendo-alternatives`.
 
-Let's make digital adoption more open, transparent, and user-friendly.
+---
+
+## 📑 Table of Contents
+
+- [📊 Market Overview](#-market-overview)
+- [🏢 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+
+---
+
+## 📊 Market Overview
+
+The global **Digital Adoption Platform (DAP)** market is estimated at **$1.9 Billion (2025/2026)** and projected to surge past **$12 Billion by 2034**. The sector exhibits a **moderately fragmented** structure:
+- **Enterprise Leaders**: Market heavyweights like **WalkMe** (acquired by SAP for $1.5B), **Pendo** ($2.6B valuation), and **Whatfix** ($900M valuation) lead corporate software transformation and employee training.
+- **Mid-Market & SMB Innovators**: Platforms such as **Appcues**, **Userpilot**, **Userlane**, and **UserGuiding** focus on rapid product-led growth (PLG) and no-code onboarding setup.
+- **Open-Source Ecosystem**: Libraries like **Driver.js**, **Shepherd.js**, and **React Joyride** offer flexible developer-first primitives for building custom in-app tours.
+
+---
+
+## 🏢 SaaS / Hosted Platforms
+
+| Company / Platform | Company Size (Valuation / Revenue) 📈 | Starting Pricing Tier 💰 | Free Tier / Trial Limit ⏳ | Description 📝 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[WalkMe](https://www.walkme.com/)** | Acquired by SAP for $1.5B ($400M+ ARR) | ~$1,500/month (Growth tier) | No free trial for main DAP platform (30-day trial for Learning Arc authoring) | Enterprise DAP pioneer for employee & customer onboarding, process automation, and analytics. |
+| **[Pendo](https://www.pendo.io/)** | $2.6B Valuation (~$300M ARR) | ~$7,000/year (Starter tier) | Forever-Free plan up to 500 Monthly Active Users (MAUs) | Product analytics-first platform with in-app guides, NPS surveys, and user segmentation. |
+| **[Whatfix](https://whatfix.com/)** | $900M Valuation (~$70M ARR) | ~$1,000/month (~$30,000/year base) | Demo-gated trial (Requires sales contact for sandbox access) | Enterprise DAP with contextual guidance, on-demand support widgets, and on-premise options. |
+| **[SAP Enable Now](https://www.sap.com/products/enable-now.html)** | SAP Enterprise Division ($35B+ total SAP revenue) | ~$6,350/year (Enterprise user package) | 30-day SAP trial environment | SAP's native DAP for SAP applications, offering in-app guidance and training content. |
+| **[Appcues](https://www.appcues.com/)** | ~$200M Est. Valuation (~$16.7M ARR) | $249/month (Essential tier, 2,500 MAUs) | 14-day free trial (Full feature access) | Product-led growth platform with no-code onboarding flows, in-app messaging, and mobile SDKs. |
+| **[Userpilot](https://userpilot.com/)** | ~$100M Est. Valuation (~$15M ARR) | $299/month (Starter plan, 2,000 MAUs) | 14-day free trial (Full feature access) | Product growth platform with onboarding checklists, feature adoption, and user analytics. |
+| **[Userlane](https://www.userlane.com/)** | ~$80M Est. Valuation (~$10M ARR) | ~$1,500/month (Enterprise application license) | Demo-gated trial (Custom demo environment provided on request) | DAP focused on enterprise software adoption with interactive step-by-step guides. |
+| **[Stonly](https://stonly.com/)** | ~$50M Est. Valuation (~$8M ARR) | $99/month (Small Business plan) | 14-day free trial & limited Basic free plan | Interactive guidance and decision-tree based step-by-step support platform. |
+| **[Guidde](https://guidde.com/)** | ~$35M Est. Valuation ($6.5M ARR) | $19/user/month (Pro plan) | Free Plan available (Limited to 25 published video guides) | AI-powered platform for creating how-to videos and step-by-step guides from screen recordings. |
+| **[ClickLearn](https://clicklearn.com/)** | ~$30M Est. Valuation (~$11.3M ARR) | $6,350/year (Basic tier) | 14-day free trial | DAP specializing in enterprise software training with multi-format content generation. |
+| **[Apty](https://apty.ai/)** | ~$30M Est. Valuation (~$5M ARR) | ~$9,500/application/year | 14-day free trial (Sandbox testing environment) | Enterprise DAP focused on process automation, compliance, and workflow optimization. |
+| **[UserGuiding](https://userguiding.com/)** | ~$25M Est. Valuation (~$4M ARR) | $174/month (Starter tier, 2,000 MAUs) | 14-day free trial & Support Essentials free plan | No-code product adoption platform with onboarding flows, checklists, and analytics. |
+| **[Inline Manual](https://inlinemanual.com/)** | ~$15M Est. Valuation (~$3M ARR) | $158/month (Standard tier, 250 MAUs) | 14-day free trial | DAP with interactive walkthroughs, tooltips, and knowledge base integration. |
+| **[Nickelled](https://nickelled.com/)** | ~$10M Est. Valuation (~$2M ARR) | $249/month (Premium plan) | 14-day free trial | Lightweight interactive walkthrough software for onboarding and training with analytics. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+| Project 📦 | License & Size ⚖️ | GitHub Stars ⭐ | Description 🛠️ |
+| :--- | :--- | :--- | :--- |
+| **[Driver.js](https://github.com/kamranahmedse/driver.js)** | MIT (3KB gzipped) | [![GitHub stars](https://img.shields.io/github/stars/kamranahmedse/driver.js?style=social&color=white)](https://github.com/kamranahmedse/driver.js/stargazers) | Framework-agnostic vanilla JavaScript library for feature highlighting, popovers, and contextual tours. |
+| **[Intro.js](https://github.com/usablica/intro.js)** | AGPL-3.0 / Commercial (8KB) | [![GitHub stars](https://img.shields.io/github/stars/usablica/intro.js?style=social&color=white)](https://github.com/usablica/intro.js/stargazers) | Veteran step-by-step guide and feature introduction library using HTML attributes. |
+| **[Shepherd.js](https://github.com/shipshapecode/shepherd)** | MIT (25KB) | [![GitHub stars](https://img.shields.io/github/stars/shipshapecode/shepherd?style=social&color=white)](https://github.com/shipshapecode/shepherd/stargazers) | Highly customizable framework-agnostic tour library with wrappers for React, Vue, Angular, and Ember. |
+| **[React Joyride](https://github.com/gilbarbara/react-joyride)** | MIT (37KB) | [![GitHub stars](https://img.shields.io/github/stars/gilbarbara/react-joyride?style=social&color=white)](https://github.com/gilbarbara/react-joyride/stargazers) | Most widely installed React-specific tour library providing customizable step-by-step popovers. |
+| **[Reactour](https://github.com/elrumordelaluz/reactour)** | MIT | [![GitHub stars](https://img.shields.io/github/stars/elrumordelaluz/reactour?style=social&color=white)](https://github.com/elrumordelaluz/reactour/stargazers) | Flexible React tour component library using SVG and CSS masking for element highlighting. |
+| **[Hopscotch](https://github.com/linkedin/hopscotch)** | Apache-2.0 | [![GitHub stars](https://img.shields.io/github/stars/linkedin/hopscotch?style=social&color=white)](https://github.com/linkedin/hopscotch/stargazers) | Framework by LinkedIn for building product walkthroughs using event callbacks and multi-page support. |
+| **[EnjoyHint](https://github.com/xbsoftware/enjoyhint)** | MIT | [![GitHub stars](https://img.shields.io/github/stars/xbsoftware/enjoyhint?style=social&color=white)](https://github.com/xbsoftware/enjoyhint/stargazers) | Web tool for creating interactive tutorials with custom shapes, highlights, and touch device support. |
+| **[Bootstrap Tour](https://github.com/sorich87/bootstrap-tour)** | MIT | [![GitHub stars](https://img.shields.io/github/stars/sorich87/bootstrap-tour?style=social&color=white)](https://github.com/sorich87/bootstrap-tour/stargazers) | Quick and easy product tours built on top of Twitter Bootstrap popovers. |
+| **[React Onboarding](https://github.com/alexvcasillas/react-onboarding)** | MIT | [![GitHub stars](https://img.shields.io/github/stars/alexvcasillas/react-onboarding?style=social&color=white)](https://github.com/alexvcasillas/react-onboarding/stargazers) | UI-agnostic logical components for building complex, multi-step React onboarding flows and validation. |
+| **[Tour Kit](https://github.com/domidex01/tour-kit)** | MIT (<8KB core) | [![GitHub stars](https://img.shields.io/github/stars/domidex01/tour-kit?style=social&color=white)](https://github.com/domidex01/tour-kit/stargazers) | Headless architecture for accessible React tours, hints, checklists, and announcements. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are very welcome! 🎉
+1. 🍴 Fork the repository.
+2. 📝 Add or edit entries in `README.md` following the table schema and emoji decorations.
+3. 🔗 Ensure links are direct and descriptions are objective and concise.
+4. 🚀 Submit a Pull Request with a clear description of changes.
+
+⭐ **Star this repository if you find it helpful!**
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting and supporting the **Awesome Digital Adoption Platform** ecosystem guide! If this project helped you discover the right tool or saved you time in building in-app onboarding experiences, please consider supporting the project:
+
+- ⭐ **Star** this repository to increase its visibility.
+- 🍴 **Fork** and contribute new tools or update existing records.
+- 📢 **Share** it with fellow product managers, UX designers, and developers.
+- ☕ **Buy a coffee / Sponsor**: If you'd like to support ongoing maintenance and research, visit the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<a href="https://github.com/sponsors/ishandutta2007">
+  <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github" alt="Sponsor" />
+</a>
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a community-curated directory provided for informational purposes.
+- In-app guidance tools track user behavior; perform proper GDPR, CCPA, and security audits before production implementation.
+- Open-source licenses (AGPL vs. MIT) must be evaluated for commercial enterprise compatibility.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Digital-Adoption-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Digital-Adoption-Platform&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <sub>Made with ❤️ for product managers, UX designers, customer success leaders, and software developers worldwide.</sub>
+</p>
