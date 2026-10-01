@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Digital-Adoption-Platform"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Digital-Adoption-Platform?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Adoption-Platform"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Digital-Adoption-Platform?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Digital-Adoption-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Digital-Adoption-Platform?color=blue" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
@@ -70,18 +70,18 @@ The global **Digital Adoption Platform (DAP)** market is estimated at **$1.9 Bil
 
 ## 🔓 Open-Source GitHub Projects
 
-| Project 📦 | License & Size ⚖️ | GitHub Stars ⭐ | Description 🛠️ |
+| Project 📦 | License & Size ⚖️ | GitHub_Stars ⭐ | Description 🛠️ |
 | :--- | :--- | :--- | :--- |
-| **[Driver.js](https://github.com/kamranahmedse/driver.js)** | MIT (3KB gzipped) | [![GitHub stars](https://img.shields.io/github/stars/kamranahmedse/driver.js?style=social&color=white)](https://github.com/kamranahmedse/driver.js/stargazers) | Framework-agnostic vanilla JavaScript library for feature highlighting, popovers, and contextual tours. |
-| **[Intro.js](https://github.com/usablica/intro.js)** | AGPL-3.0 / Commercial (8KB) | [![GitHub stars](https://img.shields.io/github/stars/usablica/intro.js?style=social&color=white)](https://github.com/usablica/intro.js/stargazers) | Veteran step-by-step guide and feature introduction library using HTML attributes. |
-| **[Shepherd.js](https://github.com/shipshapecode/shepherd)** | MIT (25KB) | [![GitHub stars](https://img.shields.io/github/stars/shipshapecode/shepherd?style=social&color=white)](https://github.com/shipshapecode/shepherd/stargazers) | Highly customizable framework-agnostic tour library with wrappers for React, Vue, Angular, and Ember. |
-| **[React Joyride](https://github.com/gilbarbara/react-joyride)** | MIT (37KB) | [![GitHub stars](https://img.shields.io/github/stars/gilbarbara/react-joyride?style=social&color=white)](https://github.com/gilbarbara/react-joyride/stargazers) | Most widely installed React-specific tour library providing customizable step-by-step popovers. |
-| **[Reactour](https://github.com/elrumordelaluz/reactour)** | MIT | [![GitHub stars](https://img.shields.io/github/stars/elrumordelaluz/reactour?style=social&color=white)](https://github.com/elrumordelaluz/reactour/stargazers) | Flexible React tour component library using SVG and CSS masking for element highlighting. |
-| **[Hopscotch](https://github.com/linkedin/hopscotch)** | Apache-2.0 | [![GitHub stars](https://img.shields.io/github/stars/linkedin/hopscotch?style=social&color=white)](https://github.com/linkedin/hopscotch/stargazers) | Framework by LinkedIn for building product walkthroughs using event callbacks and multi-page support. |
-| **[EnjoyHint](https://github.com/xbsoftware/enjoyhint)** | MIT | [![GitHub stars](https://img.shields.io/github/stars/xbsoftware/enjoyhint?style=social&color=white)](https://github.com/xbsoftware/enjoyhint/stargazers) | Web tool for creating interactive tutorials with custom shapes, highlights, and touch device support. |
-| **[Bootstrap Tour](https://github.com/sorich87/bootstrap-tour)** | MIT | [![GitHub stars](https://img.shields.io/github/stars/sorich87/bootstrap-tour?style=social&color=white)](https://github.com/sorich87/bootstrap-tour/stargazers) | Quick and easy product tours built on top of Twitter Bootstrap popovers. |
-| **[React Onboarding](https://github.com/alexvcasillas/react-onboarding)** | MIT | [![GitHub stars](https://img.shields.io/github/stars/alexvcasillas/react-onboarding?style=social&color=white)](https://github.com/alexvcasillas/react-onboarding/stargazers) | UI-agnostic logical components for building complex, multi-step React onboarding flows and validation. |
-| **[Tour Kit](https://github.com/domidex01/tour-kit)** | MIT (<8KB core) | [![GitHub stars](https://img.shields.io/github/stars/domidex01/tour-kit?style=social&color=white)](https://github.com/domidex01/tour-kit/stargazers) | Headless architecture for accessible React tours, hints, checklists, and announcements. |
+| **[Driver.js](https://github.com/kamranahmedse/driver.js)** | MIT (3KB gzipped) | [![GitHub_Stars](https://img.shields.io/github/stars/kamranahmedse/driver.js?style=social&color=white)](https://github.com/kamranahmedse/driver.js/stargazers) | Framework-agnostic vanilla JavaScript library for feature highlighting, popovers, and contextual tours. |
+| **[Intro.js](https://github.com/usablica/intro.js)** | AGPL-3.0 / Commercial (8KB) | [![GitHub_Stars](https://img.shields.io/github/stars/usablica/intro.js?style=social&color=white)](https://github.com/usablica/intro.js/stargazers) | Veteran step-by-step guide and feature introduction library using HTML attributes. |
+| **[Shepherd.js](https://github.com/shipshapecode/shepherd)** | MIT (25KB) | [![GitHub_Stars](https://img.shields.io/github/stars/shipshapecode/shepherd?style=social&color=white)](https://github.com/shipshapecode/shepherd/stargazers) | Highly customizable framework-agnostic tour library with wrappers for React, Vue, Angular, and Ember. |
+| **[React Joyride](https://github.com/gilbarbara/react-joyride)** | MIT (37KB) | [![GitHub_Stars](https://img.shields.io/github/stars/gilbarbara/react-joyride?style=social&color=white)](https://github.com/gilbarbara/react-joyride/stargazers) | Most widely installed React-specific tour library providing customizable step-by-step popovers. |
+| **[Reactour](https://github.com/elrumordelaluz/reactour)** | MIT | [![GitHub_Stars](https://img.shields.io/github/stars/elrumordelaluz/reactour?style=social&color=white)](https://github.com/elrumordelaluz/reactour/stargazers) | Flexible React tour component library using SVG and CSS masking for element highlighting. |
+| **[Hopscotch](https://github.com/linkedin/hopscotch)** | Apache-2.0 | [![GitHub_Stars](https://img.shields.io/github/stars/linkedin/hopscotch?style=social&color=white)](https://github.com/linkedin/hopscotch/stargazers) | Framework by LinkedIn for building product walkthroughs using event callbacks and multi-page support. |
+| **[EnjoyHint](https://github.com/xbsoftware/enjoyhint)** | MIT | [![GitHub_Stars](https://img.shields.io/github/stars/xbsoftware/enjoyhint?style=social&color=white)](https://github.com/xbsoftware/enjoyhint/stargazers) | Web tool for creating interactive tutorials with custom shapes, highlights, and touch device support. |
+| **[Bootstrap Tour](https://github.com/sorich87/bootstrap-tour)** | MIT | [![GitHub_Stars](https://img.shields.io/github/stars/sorich87/bootstrap-tour?style=social&color=white)](https://github.com/sorich87/bootstrap-tour/stargazers) | Quick and easy product tours built on top of Twitter Bootstrap popovers. |
+| **[React Onboarding](https://github.com/alexvcasillas/react-onboarding)** | MIT | [![GitHub_Stars](https://img.shields.io/github/stars/alexvcasillas/react-onboarding?style=social&color=white)](https://github.com/alexvcasillas/react-onboarding/stargazers) | UI-agnostic logical components for building complex, multi-step React onboarding flows and validation. |
+| **[Tour Kit](https://github.com/domidex01/tour-kit)** | MIT (<8KB core) | [![GitHub_Stars](https://img.shields.io/github/stars/domidex01/tour-kit?style=social&color=white)](https://github.com/domidex01/tour-kit/stargazers) | Headless architecture for accessible React tours, hints, checklists, and announcements. |
 
 ---
 
@@ -129,3 +129,12 @@ Thank you for visiting and supporting the **Awesome Digital Adoption Platform** 
 <p align="center">
   <sub>Made with ❤️ for product managers, UX designers, customer success leaders, and software developers worldwide.</sub>
 </p>
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Digital-Adoption-Platform&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Digital-Adoption-Platform_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Digital-Adoption-Platform_growth.svg">
+  </picture>
+</a>
